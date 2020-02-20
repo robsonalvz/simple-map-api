@@ -12,7 +12,7 @@ const body = {
         Joi.object().keys({
             lat: Joi.string().required(),
             long: Joi.string().required()
-        }).required()
-    )
+        })
+    ).required()
 };
 export default { body };
