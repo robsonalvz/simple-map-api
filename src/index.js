@@ -40,3 +40,5 @@ app.use(async (err, req, res, next) => {
 app.listen(port, () => {
     console.log(`Server is running at localhost:${port}`);
 });
+
+export default app;
