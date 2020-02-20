@@ -8,6 +8,8 @@ Api desenvolvida para servir gravar o histórico de rotas para a aplicação Sim
 - MongoDB Atlas (Database)
 - Youch (Para padronização de erros)
 - Sentry (Para monitoramento de erros em produção)
+- Docker (Aplicação em container)
+- PM2 (Para gerenciamento de processos em tempo de execução JS)
 
 ## Arquitetura
 - A arquitetura do seriço foi construida em módulos para garantir a produtividade caso o sistema ganhe novas features. 
@@ -45,4 +47,10 @@ cp .env.example .env
 ## Rodando o projeto
 ```
 yarn start
+```
+
+## Rodando o projeto com o Docker, fique a vontade para colocar a porta desejada,  e o nome desejado para a imagem/container.
+```
+docker build -t desafio .
+docker run --name desafio -p 6000:5000 desafio
 ```
