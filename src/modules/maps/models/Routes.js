@@ -18,5 +18,6 @@ const RoutesSchema = new mongoose.Schema({
 },{
     timestamps:true,
 });
+const Routes = mongoose.model('Routes',RoutesSchema);
 
-module.exports = mongoose.model('Routes',RoutesSchema);
+export default Routes;
