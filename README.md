@@ -12,7 +12,7 @@ Api desenvolvida para gravar o histórico de rotas para a aplicação SimpleMap.
 
 ## Arquitetura
 - A arquitetura do seriço foi construida em módulos para garantir a produtividade caso o sistema ganhe novas features. 
-- Fácil manutenção e entendimento, garantindo independendo de módulos.
+- Fácil manutenção e entendimento, garantindo a independência de módulos.
 - Divisão de controllers, models , routes e validators.
 - Fácil adaptação a mudanças.
 - Generic Exception Handler, para faciltar a captura de erros.
