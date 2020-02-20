@@ -1,6 +1,6 @@
 # Desafio - Simple Map API
 
-Api desenvolvida para servir gravar o histórico de rotas para a aplicação SimpleMap.
+Api desenvolvida para gravar o histórico de rotas para a aplicação SimpleMap.
 
 ## Stacks utilizadas
 - Yarn (Para gerenciamento de dependêncis)
