@@ -11,6 +11,7 @@ Api desenvolvida para gravar o histórico de rotas para a aplicação SimpleMap.
 - Youch (Para padronização de erros)
 - Docker (Aplicação em container)
 - PM2 (Para gerenciamento de processos em tempo de execução JS)
+- Travis (Para integração contínua e testes automátizados)
 
 ## Arquitetura
 - A arquitetura do seriço foi construida em módulos para garantir a produtividade caso o sistema ganhe novas features. 
