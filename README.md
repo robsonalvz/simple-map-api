@@ -14,6 +14,7 @@ Api desenvolvida para servir gravar o histórico de rotas para a aplicação Sim
 ## Arquitetura
 - A arquitetura do seriço foi construida em módulos para garantir a produtividade caso o sistema ganhe novas features. 
 - Fácil manutenção e entendimento, garantindo independendo de módulos.
+- Divisão de controllers, models , routes e validators.
 - Fácil adaptação a mudanças.
 - Generic Exception Handler, para faciltar a captura de erros.
 - Validators para garantir que o corpo da requisição venha do formato correto.
@@ -40,17 +41,21 @@ yarn install
 ```
 
 ## Configuração
+
 Criação do arquivo de configuração local, altere as configurações da url da api e do mongo atlas de acordo com suas credenciais.
 ```
 cp .env.example .env
 ```
+
 ## Rodando o projeto
 ```
 yarn start
 ```
 
-## Rodando o projeto com o Docker, fique a vontade para colocar a porta desejada,  e o nome desejado para a imagem/container.
+## Rodando o projeto com o Docker
+
+Fique a vontade para colocar a porta desejada,  e o nome desejado para a imagem/container.
 ```
-docker build -t desafio .
-docker run --name desafio -p 6000:5000 desafio
+docker build -t simple-map-api .
+docker run --name simple-map-api -p 6000:5000 simple-map-api
 ```
