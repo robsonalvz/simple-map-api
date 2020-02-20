@@ -14,7 +14,15 @@ const RoutesSchema = new mongoose.Schema({
             lat: String,
             long: String,
         },
-    ]
+    ],
+    duration: {
+        text: String,
+        value: Number
+    },
+    distance: {
+        text: String,
+        value: Number
+    }
 },{
     timestamps:true,
 });

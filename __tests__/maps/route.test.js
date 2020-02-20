@@ -12,7 +12,15 @@ describe('Post a new route',() => {
                 "lat": -11.1816506,
                 "long": -40.5120603
             },
-            "waypoints": []
+            "waypoints": [],
+            "distance":{
+                "text": "400kml",
+                "value": 400,
+            },
+            "duration":{
+                "text": "8 hours",
+                "value": 800,
+            }
         })
         expect(response.status).toBe(200);
     })
