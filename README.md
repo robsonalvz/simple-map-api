@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/robsonalvz/simple-map-api.svg?branch=master)](https://travis-ci.org/robsonalvz/simple-map-api)
+
 # Desafio - Simple Map API
 
 Api desenvolvida para gravar o histórico de rotas para a aplicação SimpleMap.
