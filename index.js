@@ -14,6 +14,9 @@ const port = process.env.API_PORT;
 
 const app = express();
 
+Sentry.init({ dsn: process.env.SENTRY_DNS });
+
+
 app.use(Sentry.Handlers.requestHandler());
 
 app.use(cors());
