@@ -1,4 +1,4 @@
-import mapsRoutes from './modules/maps/routes';
+import mapsRoutes from './modules/maps/routes/RouteRoutes';
 import express from 'express';
 
 let router = express.Router();
