@@ -1,6 +1,6 @@
 FROM node:10
 
-LABEL maintainer="Robson Alves (robson@fab.work)"
+LABEL maintainer="Robson Alves (robson.alves@dce.ufpb.br)"
 
 # Create app directory
 WORKDIR /usr/src/app
