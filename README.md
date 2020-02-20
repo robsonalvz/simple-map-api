@@ -3,6 +3,7 @@
 Api desenvolvida para servir gravar o histórico de rotas para a aplicação SimpleMap.
 
 ## Stacks utilizadas
+- Yarn (Para gerenciamento de dependêncis)
 - Nodejs e Express (Server)
 - MongoDB Atlas (Database)
 - Youch (Para padronização de erros)
