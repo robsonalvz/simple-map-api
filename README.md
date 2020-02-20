@@ -7,7 +7,6 @@ Api desenvolvida para servir gravar o histórico de rotas para a aplicação Sim
 - Nodejs e Express (Server)
 - MongoDB Atlas (Database)
 - Youch (Para padronização de erros)
-- Sentry (Para monitoramento de erros em produção)
 - Docker (Aplicação em container)
 - PM2 (Para gerenciamento de processos em tempo de execução JS)
 
