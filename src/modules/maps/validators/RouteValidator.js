@@ -10,8 +10,8 @@ const body = {
     }).required(),
     waypoints: Joi.array().items(
         Joi.object().keys({
-            lat: Joi.number().required(),
-            long: Joi.number().required()
+            lat: Joi.number(),
+            long: Joi.number()
         })
     ),
     distance: Joi.object().keys({
