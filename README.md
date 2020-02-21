@@ -34,7 +34,7 @@ Os módulos são divididos da seguinte forma:
 
 Clonagem do diretório:
 ```
-git clone https://github.com/robsonalvz/desafio-simple-route.git
+git clone https://github.com/robsonalvz/simple-map-api
 ```
 
 Instale as dependencias do projeto
