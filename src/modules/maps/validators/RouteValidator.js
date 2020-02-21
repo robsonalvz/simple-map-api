@@ -13,7 +13,7 @@ const body = {
             lat: Joi.number().required(),
             long: Joi.number().required()
         })
-    ).required(),
+    ),
     distance: Joi.object().keys({
         text: Joi.string().required(),
         value: Joi.number().required()
