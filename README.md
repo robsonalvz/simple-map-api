@@ -44,7 +44,7 @@ yarn install
 
 ## Configuração
 
-Criação do arquivo de configuração local, altere as configurações da url da api e do mongo atlas de acordo com suas credenciais.
+Criação do arquivo de configuração local, altere as configurações da porta da api e do mongo atlas de acordo com suas credenciais.
 ```
 cp .env.example .env
 ```
